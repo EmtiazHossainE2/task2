@@ -8,10 +8,6 @@ const Nav = () => {
             href: 'home',
         },
         {
-            name: 'about',
-            href: 'about',
-        },
-        {
             name: 'features',
             href: 'features',
         },
@@ -38,7 +34,7 @@ const Nav = () => {
                                 activeClass='active'
                                 spy={true}
                                 smooth={true}
-                                duration={500}
+                                duration={600}
                                 offset={-70}
                                 className='transition-all duration-300'
                             >

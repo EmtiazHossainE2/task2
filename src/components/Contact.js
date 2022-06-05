@@ -4,7 +4,7 @@ import { AiOutlineContacts } from 'react-icons/ai';
 
 const Contact = () => {
     return (
-        <div className='py-20 px-3 lg:px-12 bg-[#e4e6ed]'>
+        <div className='py-20 px-3 lg:px-12 bg-[#e4e6ed]' id='contact'>
             <div className='flex flex-col lg:flex-row gap-8'>
                 <div className='basis-1/3'>
                     <div>

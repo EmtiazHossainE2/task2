@@ -9,7 +9,7 @@ import { Fade } from "react-reveal";
 
 const Banner = () => {
   return (
-    <>
+    <div id='home'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -67,7 +67,7 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 

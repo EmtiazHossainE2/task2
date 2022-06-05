@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 
 const Feature = () => {
   return (
-    <div >
+    <div id='features'>
       <div className="sm:h-[100vh] h-auto mx-10 flex flex-col sm:flex-row justify-center items-center">
         <Fade right>
           <div className=" bg-white sm:py-10 sm:px-8 sm:mr-8 py-4 px-5 mt-8 sm:mb-8 rounded">
