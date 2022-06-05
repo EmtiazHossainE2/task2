@@ -1,15 +1,17 @@
 import React from 'react';
 import Banner from './components/Banner';
 import Contact from './components/Contact';
+import Feature from './components/Feature';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Services from './components/Services';
 
 const App = () => {
     return (
-        <div className=''>
+        <div className='relative'>
             <Header/>
             <Banner/>
+            <Feature/>
             <Services/>
             <Contact/>
             <Footer/>
