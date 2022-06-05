@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiTwotoneContainer } from 'react-icons/ai';
+import { Fade } from 'react-reveal';
 
 
 const Plans = () => {
@@ -10,17 +11,20 @@ const Plans = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita <br /> voluptatibus et sapiente doloribus reiciendis iste ea .!</p>
             </div>
             <div className='lg:px-12 md:pt-8 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 mx-4  mb-12'>
-                <div className="card lg:max-w-lg bg-base-100 shadow-xl">
-                    <figure className="px-10 pt-10">
-                        <span className='text-5xl'><AiTwotoneContainer /></span>
-                        <h4 className='text-3xl font-bold'>Basic</h4>
-                    </figure>
-                    <div className="card-body items-center text-center space-y-3">
-                        <h2 className="card-title  text-3xl ">Start building beautiful websites.</h2>
-                        <p className='text-2xl font-bold'>$/ <span className='text-3xl '>199</span></p>
-                        <button className='btn bg-blue-500 border-0 text-white'>Choose Plan</button>
+                <Fade left>
+                    <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+                        <figure className="px-10 pt-10">
+                            <span className='text-5xl'><AiTwotoneContainer /></span>
+                            <h4 className='text-3xl font-bold'>Basic</h4>
+                        </figure>
+                        <div className="card-body items-center text-center space-y-3">
+                            <h2 className="card-title  text-3xl ">Start building beautiful websites.</h2>
+                            <p className='text-2xl font-bold'>$/ <span className='text-3xl '>199</span></p>
+                            <button className='btn bg-blue-500 border-0 text-white'>Choose Plan</button>
+                        </div>
                     </div>
-                </div>
+                </Fade>
+                <Fade bottom>
                 <div className="card lg:max-w-lg bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <span className='text-5xl'><AiTwotoneContainer /></span>
@@ -32,6 +36,8 @@ const Plans = () => {
                         <button className='btn bg-blue-500 border-0 text-white'>Choose Plan</button>
                     </div>
                 </div>
+                </Fade>
+                <Fade right>
                 <div className="card lg:max-w-lg bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <span className='text-5xl'><AiTwotoneContainer /></span>
@@ -43,6 +49,7 @@ const Plans = () => {
                         <button className='btn bg-blue-500 border-0 text-white'>Choose Plan</button>
                     </div>
                 </div>
+                </Fade>
             </div>
         </div>
     );
