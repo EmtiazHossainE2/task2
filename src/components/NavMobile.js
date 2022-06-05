@@ -11,6 +11,10 @@ const NavMobile = () => {
             href: 'home',
         },
         {
+            name: 'Our Plans',
+            href: 'plans',
+        },
+        {
             name: 'features',
             href: 'features',
         },

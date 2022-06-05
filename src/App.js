@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Plans from './components/Plans';
 import Services from './components/Services';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <div className='relative'>
             <Header/>
             <Banner/>
+            <Plans/>
             <Feature/>
             <Services/>
             <Contact/>
