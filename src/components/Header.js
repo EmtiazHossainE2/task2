@@ -16,7 +16,7 @@ const Header = () => {
     <>
       <header
         className={`${bg ? 'bg-tertiary h-20' : 'h-24'
-          } flex items-center fixed top-0 w-full px-5 z-10 transition-all duration-300`}
+          } flex items-center fixed top-0 w-full px-5 text-white z-10 transition-all duration-300`}
       >
         <div className='container mx-auto h-full flex items-center justify-between'>
           <a href='/' className='lg:pl-10'>

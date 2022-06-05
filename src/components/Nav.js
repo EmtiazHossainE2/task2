@@ -26,11 +26,11 @@ const Nav = () => {
     ];
     return (
         <nav>
-            <ul className='flex space-x-12  capitalize text-lg'>
+            <ul className='flex space-x-12  capitalize text-2xl'>
                 {navigation.map((item, idx) => {
                     return (
                         <li
-                            className=' hover:text-orange-500 cursor-pointer'
+                            className='text-white  cursor-pointer'
                             key={idx}
                         >
                             <Link
